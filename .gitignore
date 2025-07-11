@@ -22,7 +22,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Large files (not tracked)
-ml-api/cleaned_stackoverflow_questions.csv
-ml-api/valid.csv
-ml-api/model/logreg_model.pkl
