@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 231 48% 10%; /* #0e1021 */
+    --foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --popover: 231 48% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --card: 233 31% 17%; /* #1d1f3a */
+    --card-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+
+    --primary: 313 100% 65%; /* #ff4ecd - Galactic Pink */
+    --primary-foreground: 356 100% 97%;
+
+    --secondary: 260 85% 66%; /* Violet for 'Edit' state */
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 173 100% 50%; /* #00ffe0 - Neon Teal */
+    --accent-foreground: 231 48% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 173 100% 50%; /* Neon Teal for focus rings */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 231 48% 10%;
+    --foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --popover: 231 48% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --card: 233 31% 17%;
+    --card-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+
+    --primary: 313 100% 65%;
+    --primary-foreground: 356 100% 97%;
+
+    --secondary: 260 85% 66%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 173 100% 50%;
+    --accent-foreground: 231 48% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 173 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background: linear-gradient(135deg, hsl(231, 48%, 10%), hsl(233, 31%, 17%));
+  }
+}
+
+button[aria-label="Show issues"],
+[data-testid="issues-button"] {
+  display: none !important;
+}
