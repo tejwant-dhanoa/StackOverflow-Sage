@@ -20,6 +20,10 @@ app.use(
 );
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send(" StackOverflow-Sage Backend is live!");
+});
+
 // Connect to MongoDB
 mongoose
   .connect(process.env.MONGO_URI, {
