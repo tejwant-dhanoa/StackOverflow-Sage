@@ -1,1 +1,1 @@
-echo "python-3.11.9" > ml-api/runtime.txt
+python-3.11.9
