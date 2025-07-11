@@ -2,5 +2,8 @@
 
 echo "Starting Gunicorn server..."
 
-# Use the full path to the gunicorn installed in the venv
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Start Gunicorn
 python -m gunicorn app:app --bind 0.0.0.0:$PORT

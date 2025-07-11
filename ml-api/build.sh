@@ -1,20 +1,13 @@
 #!/usr/bin/env bash
 
-# Fail on first error
 set -o errexit
 
-# Install Python 3.11 using pyenv
-PYTHON_VERSION=3.11.9
+# Create a virtual environment
+python -m venv .venv
 
-echo "Installing Python $PYTHON_VERSION with pyenv..."
-curl https://pyenv.run | bash
+# Activate it
+source .venv/bin/activate
 
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-pyenv install -s $PYTHON_VERSION
-pyenv global $PYTHON_VERSION
-
-# Install pip and project requirements
+# Upgrade pip and install requirements
 pip install --upgrade pip
 pip install -r requirements.txt
