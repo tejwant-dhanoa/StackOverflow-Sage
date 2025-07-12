@@ -19,13 +19,14 @@ import { Label } from "@/components/ui/label";
 import { KeyRound, LogIn, Mail } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/context/auth-context";
+import { api } from "@/lib/api";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const {setLoggedIn}=useAuth();
+  const { setLoggedIn } = useAuth();
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -33,7 +34,7 @@ export default function LoginPage() {
     setLoading(true);
     setError(""); // Clear previous error
     try {
-      const res = await axios.post("http://localhost:3000/api/auth/login", {
+      const res = await api.post("/api/auth/login", {
         email,
         password,
       });

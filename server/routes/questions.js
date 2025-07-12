@@ -14,11 +14,14 @@ router.post("/predict", async (req, res) => {
       return res.status(400).json({ message: "Missing required fields" });
     }
 
-    const response = await axios.post("http://localhost:5000/predict", {
-      title,
-      body,
-      tags,
-    });
+    const response = await axios.post(
+      "https://stackoverflowsage-ml-api.onrender.com/predict",
+      {
+        title,
+        body,
+        tags,
+      }
+    );
 
     console.log("Raw ML API response:", response.data); // New Debug
 

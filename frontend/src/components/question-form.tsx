@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { mlApi } from "@/lib/ml-api";
+import { api } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
 import {
@@ -84,6 +86,8 @@ export function QuestionForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log("Submitting to:", mlApi.defaults.baseURL + "/predict");
+
     setLoading(true);
 
     if (
@@ -104,17 +108,24 @@ export function QuestionForm() {
     try {
       const email = localStorage.getItem("email"); // ✅ Get logged-in email
 
-      const res = await axios.post(
-        "http://localhost:3000/api/questions/predict",
-        {
-          email,
-          title,
-          body,
-          tags,
-        }
-      );
+      const res = await api.post("/questions/predict", {
+        email,
+        title,
+        body,
+        tags,
+      });
+      const prediction = res.data.prediction;
 
-      setState({ quality: res.data.quality, error: null });
+      // ✅ Save to backend
+      await api.post("/api/questions/create", {
+        email,
+        title,
+        body,
+        tags,
+        prediction,
+      });
+
+      setState({ quality: res.data.prediction, error: null });
     } catch (error: any) {
       console.error("Prediction submission failed:", error);
       setState({ quality: null, error: "Prediction failed. Try again." });

@@ -18,6 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { UserPlus, Mail, KeyRound } from "lucide-react";
 import Link from "next/link";
+import { api } from "@/lib/api";
 
 export default function SignupPage() {
   const [email, setEmail] = useState("");
@@ -29,7 +30,7 @@ export default function SignupPage() {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:3000/api/auth/register", {
+      await api.post("/api/auth/register", {
         email,
         password,
       });

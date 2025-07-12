@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { api } from "@/lib/api";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { QuestionHistory } from "@/components/question-history";
@@ -34,12 +35,9 @@ export default function DashboardPage() {
 
     const fetchQuestions = async () => {
       try {
-        const res = await axios.get(
-          "http://localhost:3000/api/questions/history",
-          {
-            params: { email: userEmail },
-          }
-        );
+        const res = await api.get("/api/questions/history", {
+          params: { email: userEmail },
+        });
         setQuestions(res.data);
       } catch (err) {
         console.error("Failed to fetch questions:", err);
