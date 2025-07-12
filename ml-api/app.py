@@ -1,11 +1,14 @@
 from flask import Flask, request, jsonify
 import joblib
 import traceback
+import gzip
 
 app = Flask(__name__)
+# Load compressed model
+with gzip.open("model/logreg_model_compressed.pkl", "rb") as f:
+    model = joblib.load(f)
 
-# Load model and vectorizer once
-model = joblib.load("model/logreg_model_compressed.pkl")
+# Load vectorizer normally
 vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
 
 @app.route("/predict", methods=["POST"])
