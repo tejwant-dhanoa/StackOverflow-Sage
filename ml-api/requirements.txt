@@ -4,3 +4,4 @@ scikit-learn==1.7.0
 joblib==1.4.2
 numpy==1.26.4
 scipy==1.11.4
+flask-cors==4.0.0
