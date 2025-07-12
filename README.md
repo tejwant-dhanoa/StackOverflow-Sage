@@ -8,7 +8,6 @@
 [![Built With](https://img.shields.io/badge/Built%20With-React%20%7C%20Express%20%7C%20MongoDB%20%7C%20TypeScript-brightgreen)](https://github.com/tejwant-dhanoa/StackOverflow-Sage)
 [![ML Model](https://img.shields.io/badge/ML%20Model-Multinomial%20Naive%20Bayes-purple)](https://github.com/tejwant-dhanoa/StackOverflow-Sage)
 [![Live Site](https://img.shields.io/badge/Live-View-blue?logo=vercel)](https://stackoverflow-sage.vercel.app)
-[![License](https://img.shields.io/badge/License-MIT-orange)](LICENSE)
 
 ---
 
@@ -52,7 +51,7 @@ Backend    👉 Node.js + Express
 Database   👉 MongoDB + Mongoose  
 ML Model   👉 Multinomial Naive Bayes (Python)  
 Deployment 👉 Vercel  
-
+```txt
 ---
 ## 👩‍💻 Developer Profile
 
