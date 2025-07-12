@@ -43,11 +43,11 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 | Dashboard View | ML Assessment |
 |----------------|----------------|
-| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/assess.png) |
+| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/assess.png) |
 
 | About Page 1 | About Page 2 |
 |--------------|--------------|
-| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/main/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/about2.png) |
+| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/about2.png) |
 
 | Login Screen |  |
 |--------------|--|
