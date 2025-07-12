@@ -5,7 +5,7 @@ import traceback
 app = Flask(__name__)
 
 # Load model and vectorizer once
-model = joblib.load("model/logreg_model.pkl")
+model = joblib.load("model/logreg_model_compressed.pkl")
 vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
 
 @app.route("/predict", methods=["POST"])

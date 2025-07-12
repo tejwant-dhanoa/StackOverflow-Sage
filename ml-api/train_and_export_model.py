@@ -34,6 +34,7 @@ y_pred = model.predict(X_test_vec)
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
-# 7. Save model and vectorizer
-joblib.dump(model, "model/logreg_model.pkl")
-joblib.dump(vectorizer, "model/tfidf_vectorizer.pkl")
+
+# 7. Save compressed model and vectorizer
+joblib.dump(model, "model/logreg_model_compressed.pkl", compress=3)
+joblib.dump(vectorizer, "model/tfidf_vectorizer.pkl", compress=3)
