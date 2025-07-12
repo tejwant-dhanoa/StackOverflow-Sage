@@ -24,7 +24,7 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 ##  Key Features
 
-|  Module                   | 🛠 Description |
+|  Module                   |  Description |
 |----------------------------|----------------|
 |  ML Classification   | Uses a trained **Multinomial Naive Bayes** model on actual StackOverflow data to classify questions into: `High Quality`, `Needs Edit`, or `Must Be Closed`. |
 |  MongoDB Backend      | Connected via Mongoose; stores user data, login/signup credentials, and question history reliably. |
