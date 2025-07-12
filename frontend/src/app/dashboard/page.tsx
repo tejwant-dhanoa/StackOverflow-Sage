@@ -1,7 +1,7 @@
+// ✅ FINAL, FIXED version of DashboardPage
 "use client";
 
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { api } from "@/lib/api";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -35,12 +35,13 @@ export default function DashboardPage() {
 
     const fetchQuestions = async () => {
       try {
-        const res = await api.get("/api/questions/history", {
+        console.log("📥 Fetching history for:", userEmail);
+        const res = await api.get("/questions/history", {
           params: { email: userEmail },
         });
         setQuestions(res.data);
       } catch (err) {
-        console.error("Failed to fetch questions:", err);
+        console.error("❌ Failed to fetch questions:", err);
       } finally {
         setLoading(false);
       }
