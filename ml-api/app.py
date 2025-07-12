@@ -5,9 +5,7 @@ import gzip
 
 app = Flask(__name__)
 # Load compressed model
-with gzip.open("model/logreg_model_compressed.pkl", "rb") as f:
-    model = joblib.load(f)
-
+model = joblib.load("model/logreg_model_compressed.pkl")
 # Load vectorizer normally
 vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
 
