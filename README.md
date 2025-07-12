@@ -45,13 +45,13 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 ## 🛠️ Tech Stack
 
-```txt
+
 Frontend   👉 React + TypeScript  
 Backend    👉 Node.js + Express  
 Database   👉 MongoDB + Mongoose  
 ML Model   👉 Multinomial Naive Bayes (Python)  
 Deployment 👉 Vercel  
-```txt
+
 ---
 ## 👩‍💻 Developer Profile
 
