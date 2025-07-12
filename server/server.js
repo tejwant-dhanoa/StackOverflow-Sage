@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   "http://localhost:9002", // ✅ for local development
-  "https://stackoverflowsage-frontend.onrender.com", // ✅ replace with your actual frontend deployment
+  "https://stackoverflow-sage.vercel.app", // ✅ replace with your actual frontend deployment
 ];
 
 app.use(
