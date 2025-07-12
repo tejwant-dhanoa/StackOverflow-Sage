@@ -39,19 +39,19 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 | Home Page | Alternate Home |
 |-----------|----------------|
-| ![home.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/home.png) | ![home2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/home2.png) |
+| ![home.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/home.png) | ![home2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/home2.png) |
 
 | Dashboard View | ML Assessment |
 |----------------|----------------|
-| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/assess.png) |
+| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/assess.png) |
 
 | About Page 1 | About Page 2 |
 |--------------|--------------|
-| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/about2.png) |
+| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/main/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/about2.png) |
 
 | Login Screen |  |
 |--------------|--|
-| ![login.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/login.png) |  |
+| ![login.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/login.png) |  |
 
 ---
 
