@@ -1,7 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True, origins=[
+    "http://localhost:9002",
+    "https://stackoverflowsage-frontend.onrender.com"  # replace with your actual frontend deploy URL
+])
 
 # Load compressed model and vectorizer
 model = joblib.load("model/logreg_model_compressed.pkl")
