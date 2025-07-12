@@ -1,3 +1,1 @@
-ml-api/model/logreg_model.pkl filter=lfs diff=lfs merge=lfs -text
-ml-api/model/tfidf_vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
-ml-api/cleaned_stackoverflow_questions.csv filter=lfs diff=lfs merge=lfs -text
+model/logreg_model_compressed.pkl filter=lfs diff=lfs merge=lfs -text
