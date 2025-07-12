@@ -26,12 +26,12 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 |  Module                   | 🛠 Description |
 |----------------------------|----------------|
-| ** ML Classification**   | Uses a trained **Multinomial Naive Bayes** model on actual StackOverflow data to classify questions into: `High Quality`, `Needs Edit`, or `Must Be Closed`. |
-| ** MongoDB Backend**      | Connected via Mongoose; stores user data, login/signup credentials, and question history reliably. |
-| ** Question Dashboard**   | A sleek dashboard displays historical queries along with their ML-determined status. Great for review and improvement. |
-| ** Typed Frontend**       | Built with **React + TypeScript** to ensure type safety and scalable development. |
-| ** Immersive Galaxy Theme** | A cosmic particles background enhances every page—modern, elegant, and developer-centric. |
-| ** About Us + 🏠 Home Pages** | Custom-designed with thoughtful UX, clearly outlining the app’s mission and usage. |
+|  ML Classification   | Uses a trained **Multinomial Naive Bayes** model on actual StackOverflow data to classify questions into: `High Quality`, `Needs Edit`, or `Must Be Closed`. |
+|  MongoDB Backend      | Connected via Mongoose; stores user data, login/signup credentials, and question history reliably. |
+|  Question Dashboard   | A sleek dashboard displays historical queries along with their ML-determined status. Great for review and improvement. |
+|  Typed Frontend       | Built with **React + TypeScript** to ensure type safety and scalable development. |
+|  Immersive Galaxy Theme | A cosmic particles background enhances every page—modern, elegant, and developer-centric. |
+|  About Us +  Home Pages | Custom-designed with thoughtful UX, clearly outlining the app’s mission and usage. |
 
 ---
 
@@ -39,19 +39,19 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 | Home Page | Alternate Home |
 |-----------|----------------|
-| ![home.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/home.png) | ![home2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/home2.png) |
+| ![home.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/home.png) | ![home2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/home2.png) |
 
 | Dashboard View | ML Assessment |
 |----------------|----------------|
-| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/assess.png) |
+| ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/assess.png) |
 
 | About Page 1 | About Page 2 |
 |--------------|--------------|
-| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/about2.png) |
+| ![about.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/about.png) | ![about2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/about2.png) |
 
 | Login Screen |  |
 |--------------|--|
-| ![login.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/public/assets/login.png) |  |
+| ![login.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/assets/login.png) |  |
 
 ---
 
