@@ -30,7 +30,7 @@ export default function SignupPage() {
     e.preventDefault();
     setLoading(true);
     try {
-      await api.post("/api/auth/register", {
+      await api.post("/auth/register", {
         email,
         password,
       });

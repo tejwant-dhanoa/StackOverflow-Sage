@@ -34,7 +34,7 @@ export default function LoginPage() {
     setLoading(true);
     setError(""); // Clear previous error
     try {
-      const res = await api.post("/api/auth/login", {
+      const res = await api.post("/auth/login", {
         email,
         password,
       });
