@@ -37,11 +37,11 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 ## 📸 Screenshots
 
-| Home Page | Alternate Home |
+| Home Page | Home Page - 2 |
 |-----------|----------------|
 | ![home.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/home.png) | ![home2.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/home2.png) |
 
-| Dashboard View | ML Assessment |
+| Dashboard View | Machine Learning Assessment |
 |----------------|----------------|
 | ![dashboard.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/dashboard.png) | ![assess.png](https://raw.githubusercontent.com/tejwant-dhanoa/StackOverflow-Sage/main/assets/assess.png) |
 
