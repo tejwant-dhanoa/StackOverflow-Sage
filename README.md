@@ -11,7 +11,7 @@
 
 ---
 
-## 🧭 What Is StackOverflow Sage?
+##  What Is StackOverflow Sage?
 
 StackOverflow Sage is a full-stack web application designed to tackle a common pain point in the developer ecosystem: **unanswered and unclear technical questions**. By merging machine learning classification with a well-structured user interface, the application makes questions easier to understand, improve, and track.
 
@@ -68,9 +68,9 @@ Deployment -- Vercel
 ## 👩‍💻 Developer Profile
 
 **Tejwant Kaur Dhanoa**  
-🎓 Final Year Computer Science Student  
-🚀 Specializes in full-stack development, scalable backend systems, and UI design  
-💡 Passionate about solving real developer problems with depth, structure, and measurable impact  
+ Final Year Computer Science Student  
+ Specializes in full-stack development, scalable backend systems, and UI design  
+ Passionate about solving real developer problems with depth, structure, and measurable impact  
 🔗 [LinkedIn](https://www.linkedin.com/in/tejwant-kaur-dhanoa)
 
 ---
