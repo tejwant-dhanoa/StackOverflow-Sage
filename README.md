@@ -22,6 +22,17 @@ Whether it’s on StackOverflow or within technical teams, developers often stru
 
 ---
 
+## ⚙️ ML API Note
+
+This project uses a machine learning API hosted on [Render](https://render.com/) (free tier).  
+To optimize resources, the server **sleeps when inactive**, which may cause an initial delay of **5–10 seconds** while it wakes up.
+
+> 💡 If the prediction takes a few seconds or fails on the first attempt, please retry — the server is just warming up.
+
+Thank you for your patience!
+
+---
+
 ##  Key Features
 
 |  Module                   |  Description |
